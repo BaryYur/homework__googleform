@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="googleformstyle.css">
+    <title>Google form</title>
+</head>
+<body>
+    <div class="container">
+        <div class="section top-image"></div>
+        <div class="color__box"></div>
+        <div class="section1">
+          <p class="heading__text">Quiz</p>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure
+            incidunt placeat dignissimos cum, itaque dolore reprehenderit.
+          </p>  
+          <p class="important__text">*Обязательно</p>
+        </div>
+        <form action="">
+          <div class="section2">
+            <input type="text" placeholder="Your name" name="YName" />
+          </div>
+          <div class="section3">
+            <h3>Have you been in Ukraine? <span class="red__star">*</span></h3>
+            <ul>
+              <li>
+                <input id="ukrane-yes" type="radio" value="yes" name="ukraine" />
+                <label for="ukrane-yes">Yes, I'll be there</label>
+              </li>
+              <li>
+                <input id="ukrane-no" type="radio" value="no" name="ukraine" />
+                <label for="ukrane-no">No, I haven't</label>
+              </li>
+            </ul>
+          </div>
+          <div class="section4">
+            <h3>Have you been in Polland? <span class="red__star">*</span></h3>
+            <ul>
+              <li>
+                <input
+                  id="polland-yes"
+                  type="radio"
+                  value="Yes, I'll be there"
+                  name="polland"
+                />
+                <label for="polland-yes">Yes, I'll be there</label>
+              </li>
+              <li>
+                <input id="polland-no" type="radio" value="no" name="polland" />
+                <label for="polland-no">No, I haven't</label>
+              </li>
+            </ul>
+          </div>
+          <div class="section5">
+              <h3>Why do you wanna travel?</h3>
+              <p>Answers:</p>
+              <ul>
+                  <li>
+                    <input type="checkbox" id="inp1" name="check">
+                    <label for="inp1" class="">text1</label>
+                  </li>
+                  <li>
+                    <input type="checkbox" id="inp2" name="check">
+                    <label for="inp2">text2</label>
+                  </li>
+                  <li>
+                    <input type="checkbox" id="inp3" name="check">
+                    <label for="inp3">text3</label>
+                  </li>
+                  <li>
+                    <input type="checkbox" id="inp4" name="check">
+                    <label for="inp4">text4</label>
+                  </li>
+              </ul>
+              <p>
+                  <div class="input__box">
+                      <input type="checkbox" name="check" id="inp5">
+                      <label for="inp5">Another:</label>
+                      <input type="text" id="inp5"> 
+                  </div>
+              </p>
+          </div>
+          <div class="section6">
+              <input type="text" name="email" placeholder="Your Email">
+          </div>
+          <button class="submit-button">Submit</button>
+        </form>
+        <p class="never__text">Никогда не используйте формы Google для передачи паролей.</p>
+        <footer class="main-footer">
+            <p>Компания Google не имеет никакого отношения к этому контенту.
+                <a href="#">Сообщение о нарушении</a> - <a href="#">Условия</a> <br>
+                <a href="#">использования</a> - <a href="#">Политика конфиденциальности</a>
+            </p>
+            <div>
+                <a href="#"><img src="https://www.gstatic.com/images/branding/googlelogo/svg/googlelogo_dark_clr_74x24px.svg" alt="google form">
+                    <span>Формы</span>
+                </a>
+            </div>
+        </footer>
+      </div>
+</body>
+</html>
